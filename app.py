@@ -32,7 +32,7 @@ if user_message:
 
     try:
         response = requests.post(
-            "https://abdullaht2004.app.n8n.cloud/webhook-test/63abfc0b-e28e-43b9-815e-ba251bf43971",
+            "https://abdullaht2004.app.n8n.cloud/webhook/63abfc0b-e28e-43b9-815e-ba251bf43971",
             json={"message": user_message}
         )
 
